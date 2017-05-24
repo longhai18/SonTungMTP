@@ -18,7 +18,7 @@ nav {
 }
 
 #logo {
-  height: 30px;
+  height: 28px;
   float: left;
 }
 
@@ -41,7 +41,7 @@ nav li:hover {
   color: #ff757b;
 }
 
-.banner #headimg {
+.banner #heading {
   margin-top: 80px;
 }
 
