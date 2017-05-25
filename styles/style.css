@@ -130,7 +130,6 @@ nav li:hover {
 }
 
 .c-header p {
-  letter-spacing: 2px;
   text-align: center;
   margin: 10px auto;
   font-size: 45px;
@@ -139,6 +138,7 @@ nav li:hover {
   border-width: 0 0 1px 0;
   border-color: #ca383a;
   border-style: solid;
+  font-weight: lighter;
 }
 
 .content .info {
@@ -169,7 +169,7 @@ footer a {
   }
 
   #logo {
-    min-height: 1.5em;
+    min-height: 3em;
   }
 
   .c-header p {
