@@ -23,7 +23,7 @@ nav {
 }
 
 #logo {
-  height: 30px;
+  min-height: 30px;
   float: left;
 }
 
@@ -169,7 +169,7 @@ footer a {
   }
   .content .info {
     width: 90%;
-    font-size: 18px;
+    font-size: 1em;
     padding: 10px 20px;
   }
 
