@@ -23,7 +23,7 @@ nav {
 }
 
 #logo {
-  min-height: 20px;
+  min-height: 8em;
   height: 30px;
   float: left;
 }
@@ -175,7 +175,7 @@ footer a {
   }
 
   .img-content .header {
-    font-size: 3em;
+    font-size: 8em;
   }
 
   .sub {
