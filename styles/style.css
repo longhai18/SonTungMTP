@@ -169,11 +169,11 @@ footer a {
   }
 
   #logo {
-    min-height: 4.5em;
+    min-height: 1.5em;
   }
 
   .c-header p {
-    font-size: 5em;
+    font-size: 3em;
 
   }
   .content .info {
@@ -188,7 +188,7 @@ footer a {
 
   .sub {
     line-height: 1.2;
-    font-size: 3em;
+    font-size: 2em;
     width: 70%;
     min-width: 0;
     margin: 0 auto;
@@ -199,7 +199,7 @@ footer a {
   }
 
   nav {
-    padding: 10px 0;
+    padding: 2em 0;
   }
   nav,
   #logo,
