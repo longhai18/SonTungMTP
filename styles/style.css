@@ -2,12 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
 body {
+  background: white;
   margin: 0;
   padding: 0;
   width: 100%;
   height: 100%;
   font-family: 'Roboto', 'Segoe UI Light', sans-serif;
 }
+
 .container {
   width: 80%;
   margin: 0 auto;
@@ -89,7 +91,7 @@ nav li:hover {
 .img-content {
   display: table-cell;
   text-align: center;
-  padding-top: 450px
+  vertical-align: middle;
 }
 
 .img-content .header {
@@ -106,14 +108,14 @@ nav li:hover {
   font-size: 30px;
   color: white;
   padding: 10px;
-  background: rgba(202, 56, 58, 0.8);
+  background: rgba(202, 56, 58, 0.5);
   border-width: 1px;
   border-radius: 10px;
   font-weight: lighter;
 }
 
 .sub:hover {
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.5);
 }
 
 .smallsub {
@@ -141,8 +143,9 @@ nav li:hover {
   font-weight: lighter;
 }
 
-.content .info {
-  width: 71%;
+  .info {
+  box-sizing: border-box;
+  width: 70%;
   margin: 0 auto;
   background: #ca383a;
   color: white;
@@ -168,18 +171,25 @@ footer a {
 
   }
 
+  #banner1, #banner2, #banner3, #banner4 {
+    height: 1900px;
+  }
+
   #logo {
-    min-height: 1.5em;
+    min-height: 4.5em;
   }
 
   .c-header p {
-    font-size: 3em;
+    font-size: 8em;
+    border-width: 0 0 3px 0;
+    width: 100%;
 
   }
-  .content .info {
-    width: 90%;
+    .info {
+    box-sizing: border-box;
+    width: 100%;
     font-size: 1em;
-    padding: 10px 20px;
+    padding: 1em 2em;
   }
 
   .img-content .header {
@@ -188,7 +198,7 @@ footer a {
 
   .sub {
     line-height: 1.2;
-    font-size: 2em;
+    font-size: 4em;
     width: 70%;
     min-width: 0;
     margin: 0 auto;
@@ -210,10 +220,14 @@ footer a {
   }
 
   nav li {
-    font-size: 1em;
-    padding: 5px 15px 0 15px;
+    font-size: 2.5em;
+    padding: 0.5em 1em 0 1em;
     text-align: center;
     float: none;
+}
+
+.footer {
+  font-size: 0.5em;
 }
 
 }
