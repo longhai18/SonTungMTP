@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-body {
+body, html {
   background: white;
   margin: 0;
   padding: 0;
@@ -51,41 +51,50 @@ nav li:hover {
 
 #banner1 {
   display: table;
-  min-height: 700px;
-  width: 100%;
-  background: url("../images/cover1-origin.jpg") no-repeat right center;
+  margin: auto;
+  background-image: url("../images/cover1-origin.jpg");
+  background-position: right center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
 }
 
 #banner2 {
   display: table;
-  height: 700px;
-  width: 100%;
-  background: url("../images/cover2.jpg") no-repeat center;
+  margin: auto;
+  background-image: url("../images/cover2.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
-  margin: 0;
 }
 
 #banner3 {
   display: table;
-  height: 700px;
-  width: 100%;
-  background: url("../images/cover3.jpg") no-repeat center;
+  margin: auto;
+  background-image: url("../images/cover3.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
-  margin: 0;
 }
 
 #banner4 {
   display: table;
-  height: 700px;
-  width: 100%;
-  background: url("../images/cover4.jpg") no-repeat center;
+  margin: auto;
+  background-image: url("../images/cover4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
+  height: 100%;
+  width: 100%;
   background-attachment: fixed;
-  margin: 0;
 }
 
 .img-content {
@@ -167,14 +176,6 @@ footer a {
 }
 
 @media only screen and (max-width: 811px), (orientation: portrait) {
-  body {
-
-  }
-
-  #banner1, #banner2, #banner3, #banner4 {
-    height: 1900px;
-  }
-
   #logo {
     min-height: 4.5em;
   }
