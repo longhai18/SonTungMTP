@@ -18,14 +18,14 @@ body, html {
 }
 nav {
   top: 0;
-  background: rgba(34, 34, 34, 0.9);
+  background: #234B4F;
   padding: 25px 0;
   position: fixed;
   width: 100%;
 }
 
 #logo {
-  height: 30px;
+  height: 25px;
   float: left;
 }
 
@@ -46,7 +46,7 @@ nav li  {
 }
 
 nav li:hover {
-  color: #ff757b;
+  color: #60D1DB;
 }
 
 #banner1 {
@@ -112,20 +112,14 @@ nav li:hover {
 
 .sub {
   margin: 0 auto;
-  width: 70%;
   min-width: 750px;
   font-size: 30px;
-  color: white;
+  color: #60D1DB;
   padding: 10px;
-  background: rgba(202, 56, 58, 0.5);
   border-width: 1px;
-  border-radius: 10px;
-  font-weight: lighter;
+  font-weight: bold;
 }
 
-.sub:hover {
-    background: rgba(0, 0, 0, 0.5);
-}
 
 .smallsub {
   color: white;
@@ -136,43 +130,43 @@ nav li:hover {
 }
 
 .content {
-  margin-bottom: 10px;
   width: 100%;
 }
 
 .c-header p {
+  padding: 20px 0;
   text-align: center;
-  margin: 10px auto;
+  margin: 0 auto;
   font-size: 45px;
   text-transform: uppercase;
-  color: #ca383a;
-  border-width: 0 0 1px 0;
-  border-color: #ca383a;
-  border-style: solid;
-  font-weight: lighter;
+  color: white;
+
+  background-color: #234B4F;
+  font-weight: bold;
 }
 
   .info {
-  box-sizing: border-box;
-  width: 70%;
+
   margin: 0 auto;
-  background: #ca383a;
-  color: white;
-  padding: 20px 40px;
+  background: #60D1DB;
+  color: #234B4F;
+  padding: 20px 15%;
   font-size: 20px;
   line-height: 2;
-  font-weight: lighter;
+  font-weight: regular;
 }
 
 
 
 footer {
+  color: #234B4F;
   text-align: center;
   padding: 10px 0;
+  background-color: #60D1DB;
 }
 footer a {
   text-decoration: none;
-  color: darkgray;
+  color: white;
 }
 
 @media only screen and (max-width: 811px), (orientation: portrait) {
